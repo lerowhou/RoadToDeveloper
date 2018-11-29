@@ -1,5 +1,5 @@
 def binsearch(arr, n):
-    if len(arr)==0 or (len(arr)==1 and arr[0]!=value):
+    if len(arr)==0 or (len(arr)==1 and arr[0]!=n):
         return False
     mid=arr[len(arr)//2]
     if mid==n: return True
